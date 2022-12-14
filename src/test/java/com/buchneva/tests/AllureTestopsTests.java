@@ -40,7 +40,7 @@ public class AllureTestopsTests {
     }
 
     @Test
-    void createTestCaseStepWithApiTest() {
+    void createTestCaseStepsWithApiTest() {
 
         int testCaseId = new CreateTestCaseApi().getTestCaseId(USER_TOKEN, USERNAME, PASSWORD);
 
