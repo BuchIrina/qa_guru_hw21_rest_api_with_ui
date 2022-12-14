@@ -45,5 +45,4 @@ public class AuthorizationApi {
                 .statusCode(200).extract().response()
                 .getCookie(ALLURE_TESTOPS_SESSION);
     }
-
 }
